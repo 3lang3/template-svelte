@@ -1,5 +1,5 @@
 <script lang="ts">
-  export let name: string = 123;
+  export let name: string = '123';
 </script>
 
 <main>
