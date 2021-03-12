@@ -1,7 +1,5 @@
-console.log('enter verify comment script')
-
 const chalk = require('chalk');
-const msgPath = process.env.GIT_PARAMS;
+const msgPath = process.env.HUSKY_GIT_PARAMS;
 const msg = require('fs').readFileSync(msgPath, 'utf-8').trim();
 
 const commitRE = /^(((\ud83c[\udf00-\udfff])|(\ud83d[\udc00-\ude4f\ude80-\udeff])|[\u2600-\u2B55]) )?(revert: )?(Merge|merge|feat|fix|docs|UI|refactor|⚡perf|workflow|build|CI|typos|chore|tests|types|wip|release|dep)(\(.+\))?: .{1,50}/;

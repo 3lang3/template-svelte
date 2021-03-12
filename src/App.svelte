@@ -1,5 +1,5 @@
 <script lang="ts">
-  export let name: string = 'sss';
+  export let name: string = '3lang';
 </script>
 
 <main>
